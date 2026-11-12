@@ -9,7 +9,10 @@ By [BringLife Digital](https://bringlifedigital.com/skills/) · MIT licence
 4. **Your plan:** honest résumé upgrades, a 30-day plan on your real work, and the best open-source agent skills on GitHub for your gaps.
 5. **Bonus skill:** Prompt Coach, which makes you better at using AI every time you use it.
 
-## Install
+## No Claude? Use ChatGPT
+Copy [`chatgpt/prompt.md`](chatgpt/prompt.md) and paste it into ChatGPT, Gemini or any chat AI (free versions work). To save it as your own GPT, see [`chatgpt/custom-gpt.md`](chatgpt/custom-gpt.md). Or copy it from [the story page](https://bringlifedigital.com/skills/irreplaceable/#chatgpt).
+
+## Install in Claude
 - **Claude app / claude.ai:** download the zip from [bringlifedigital.com/skills](https://bringlifedigital.com/skills/#irreplaceable) → Settings → Capabilities → Skills → Upload skill.
 - **Claude Code:** `git clone https://github.com/BringLife-digital/irreplaceable ~/.claude/skills/irreplaceable`
 

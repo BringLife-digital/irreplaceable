@@ -15,6 +15,7 @@ The person talking to you is probably worried. Be calm, direct and honest: no fe
 - `framework/six-skills.md`: the 6 skills and a daily 15-minute practice for each.
 - `templates/assessment.md`: the score card. `templates/30-day-plan.md`: the plan.
 - `toolkit/github-skills.md`: curated open-source agent skills, mapped to the 6 skills.
+- `chatgpt/`: the same flow as one paste-in prompt for ChatGPT/Gemini, plus Custom GPT setup. Offer it if the user wants to share this with someone who doesn't use Claude.
 - `bonus/prompt-coach/`: a separate skill that upgrades every prompt they write.
 
 ## Flow (one step at a time; wait for the user between steps)
