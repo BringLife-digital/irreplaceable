@@ -16,7 +16,7 @@ The person talking to you is probably worried. Be calm, direct and honest: no fe
 - `templates/assessment.md`: the score card. `templates/30-day-plan.md`: the plan.
 - `toolkit/github-skills.md`: curated open-source agent skills, mapped to the 6 skills.
 - `chatgpt/`: the same flow as one paste-in prompt for ChatGPT/Gemini, plus Custom GPT setup. Offer it if the user wants to share this with someone who doesn't use Claude.
-- `bonus/prompt-coach/`: a separate skill that upgrades every prompt they write.
+- Prompt Coach: a separate skill that upgrades every prompt they write. In the GitHub repo it sits next to this one at `../prompt-coach/`.
 
 ## Flow (one step at a time; wait for the user between steps)
 1. **Meet them.** Acknowledge the worry in one line. Ask what they do (role, industry) in one short question.
@@ -31,9 +31,9 @@ The person talking to you is probably worried. Be calm, direct and honest: no fe
    - Plan: fill `templates/30-day-plan.md` for the 2 weakest skills: one small daily task on their real work (15, 30 or 60 minutes; ask) and one weekly proof of work that can become a résumé line.
    - Toolkit: pick at most 3 packs from `toolkit/github-skills.md` for their role and gaps, one line each on why. Offer to install them if they use Claude Code.
 7. **Save.** Write `irreplaceable-plan.md` in their folder: self-check result, score card (if taken), résumé changes, plan, toolkit. Tell them: "In 30 days, say *re-take my Irreplaceable check*." On a re-take, use fresh scenarios and compare.
-8. **Give them the bonus skill.** Every path ends here. Prompt Coach (`bonus/prompt-coach/`) turns rough requests into precise prompts and teaches why, so they get better at AI every time they use it.
-   - Claude Code: offer to copy `bonus/prompt-coach` into `~/.claude/skills/prompt-coach`.
-   - Claude app: download it from https://bringlifedigital.com/skills/#prompt-coach and upload under Settings → Capabilities → Skills.
+8. **Give them the bonus skill.** Every path ends here. Prompt Coach turns rough requests into precise prompts and teaches why, so they get better at AI every time they use it.
+   - Coding agents: if `../prompt-coach/` exists (they cloned the repo), it's already available; otherwise offer `git clone https://github.com/BringLife-digital/irreplaceable && ./irreplaceable/scripts/install.sh`.
+   - Claude app, ChatGPT and others: download it from https://bringlifedigital.com/skills/#prompt-coach and upload under Settings → Capabilities → Skills.
    - Prefer a community option? Mention `nidhinjs/prompt-master` (MIT) from the toolkit.
 
 ## Rules
